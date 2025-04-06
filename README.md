@@ -2,6 +2,8 @@
 
 Terminal-based utility for good times!
 
+<img src="https://github.com/user-attachments/assets/93896734-57f9-4954-9b6a-72bb9362b9ed" width="70%">
+
 This project follows the "learn by building" philosophy, where I implemented various C concepts by creating something fun
 
 ## Features
@@ -15,21 +17,21 @@ This project follows the "learn by building" philosophy, where I implemented var
 
 ### Windows
 
-1. Download the latest release from [releases](https://github.com/HeySkidee/fun.sh/releases/download/v0.1.0/)
+1. Download the latest release from [releases](https://github.com/HeySkidee/fun.sh/releases/download/v0.1.0/fun.exe)
 2. Option 1: Run directly from the downloaded location
-3. Option 2:
+3. Option 2: Run PowerShell as admin and set the "fun" command
     ```powershell
     # Create directory
     mkdir "C:\Program Files\fun"
     # Move executable
     move fun.exe "C:\Program Files\fun\"
     # Add to PATH (run in PowerShell as Administrator)
-    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\fun", "Machine")
+    [Environment]::SetEnvironmentVariable("Path", "$($env:Path);C:\Program Files\fun", "Machine")
     ```
 
 ### Linux
 
-1. Download the latest release from [releases]()
+1. Download the latest release from [releases](https://github.com/HeySkidee/fun.sh/releases/download/v0.1.0/fun_linux)
 2. Make it executable:
     ```bash
     chmod +x fun_linux
