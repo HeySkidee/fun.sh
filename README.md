@@ -1,8 +1,8 @@
 # fun.sh
 
-Terminal-based utility for good times!
+Terminal based utility for good times!
 
-<img src="https://github.com/user-attachments/assets/93896734-57f9-4954-9b6a-72bb9362b9ed" width="70%">
+<img src="https://github.com/user-attachments/assets/93896734-57f9-4954-9b6a-72bb9362b9ed" width="72%">
 
 This project follows the "learn by building" philosophy, where I implemented various C concepts by creating something fun
 
